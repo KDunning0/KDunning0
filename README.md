@@ -18,7 +18,7 @@ Selected work from my M.S. in Data Science at the University of Virginia (2026).
 ---
 
 ## NADIA: Hybrid Retrieval-Augmented Generation for Stroke Research
-*Team project (4 members), MSDS Capstone, University of Virginia · Sponsored by the UVA Health stroke research group* · [Paper](link)
+*Team project (4 members), MSDS Capstone, University of Virginia · Sponsored by the UVA Health stroke research group* · Restricted Access. Please contact me directly to request a Demo or information on the code.
 
 **Summary.** Stroke researchers deciding whether a research question is worth pursuing have to answer two things at once: what the published literature already says, and whether their own data can support the study. NADIA (Neurological Abstract and Database Intelligence Assistant) is a research-support tool that answers both from one interface. Its literature pipeline searches a candidate pool of up to ~10,300 PubMed records, restricts them to 16 sponsor-selected journals, and keeps the top 1,000 by relevance, which yields about 730 usable abstracts after filtering. It pairs that literature with a clinical stroke registry and a synthetic administrative claims dataset to help researchers refine questions, check data feasibility, and find gaps in the literature.
 
@@ -28,6 +28,8 @@ Selected work from my M.S. in Data Science at the University of Virginia (2026).
 
 **My role:** One of the main pipeline builders. Led testing and codebase validation, co-wrote the final report, and led client demonstrations and technical presentations. Also validated compatibility with UVA's HPC environment and optimized LLM routing and performance.
 
+**System Diagram:**
+![NADIA system architecture](images/nadia-architecture.png)
 ---
 
 ## Skin Lesion Classification: An Ablation Study with EfficientNet-B4
@@ -91,7 +93,7 @@ Selected work from my M.S. in Data Science at the University of Virginia (2026).
 ---
 
 ## Testing a Retailer's Claims: What Drives Diamond Price?
-*Team project (4 members), DS 6021, University of Virginia* · [Report](link) · [Code](link)
+*Team project (4 members), DS 6021, University of Virginia* · [Request Access to Project Folder](https://drive.google.com/drive/folders/1WLRADshsFQHlZhqZWbLCnVazQxPbHdk4?usp=drive_link)
 
 **Summary.** Blue Nile, an online diamond retailer, tells shoppers how to rank the "4Cs." It says cut matters most for how a diamond looks, followed by color and then clarity, and that carat weight is the biggest driver of price. Our team tested those claims against 1,214 diamonds from Blue Nile's inventory. We looked at two questions: how the 4Cs are distributed across the stock, and how each one relates to price.
 
