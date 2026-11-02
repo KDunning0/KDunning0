@@ -44,7 +44,7 @@ Selected work from my M.S. in Data Science at the University of Virginia (2026).
 ---
 
 ## Finding Displaced People After the 2010 Haiti Earthquake
-*Team project (4 members), DS 6030, University of Virginia* · [Request Access to Project Folder](https://drive.google.com/drive/folders/16BL51N8h9MJG0KDXZ8ZmiZswtDk_zRtf?usp=drive_link))
+*Team project (4 members), DS 6030, University of Virginia* · [Request Access to Project Folder](https://drive.google.com/drive/folders/16BL51N8h9MJG0KDXZ8ZmiZswtDk_zRtf?usp=drive_link)
 
 **Summary.** After the 2010 Haiti earthquake, many displaced people sheltered under blue tarps, so finding tarps in aerial imagery is a way to direct aid to them. Our team built classifiers that flag blue-tarp pixels using only their RGB values. We trained on 63,241 labeled pixels (3% tarps) and tested on a 1,024,899-pixel holdout set where tarps made up only 1.4%.
 
@@ -78,7 +78,7 @@ Selected work from my M.S. in Data Science at the University of Virginia (2026).
 ---
 
 ## Predicting Home Prices and Quality in King County, WA
-*Team project (4 members), DS 6021, University of Virginia* · [Report](link) · [Code](link)
+*Team project (4 members), DS 6021, University of Virginia* · [Request Access to Project Folder](https://drive.google.com/drive/folders/10Z3N0yMOLEED3JPxmrZBdK2WIDSAmdkJ?usp=drive_link)
 
 **Summary.** Using 21,613 home sales from King County, Washington (2014–2015), our team built models for two questions: what a home will sell for, and whether it is "good quality." King County defines good quality as above-average scores on both construction grade and condition. We fit two price models for different audiences, one on the full market including luxury homes, and one for typical buyers with the most expensive 2.5% of homes (≥ $1.495M) removed. A third model classifies home quality.
 
