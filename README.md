@@ -31,7 +31,7 @@ Selected work from my M.S. in Data Science at the University of Virginia (2026).
 **System Diagram:**
 
 <p align="center">
-  <img src="images/nadia-architecture.png" alt="NADIA system architecture" width="600">
+  <img src="images/nadia-architecture.png" alt="NADIA system architecture" width="700">
 </p>
 
 ---
