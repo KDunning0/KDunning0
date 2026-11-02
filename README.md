@@ -2,7 +2,7 @@
 
 Welcome to my academic portfolio, featuring projects from my M.S. in Data Science at the University of Virginia.
 
-📫 [LinkedIn]([link](https://www.linkedin.com/in/kdunning0/) · [Email](kadunning0@gmail.com)
+📫 [LinkedIn](https://www.linkedin.com/in/kdunning0/) · [Email](kadunning0@gmail.com)
 
 ## Projects
 
