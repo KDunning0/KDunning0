@@ -1,4 +1,10 @@
-[projects.md](https://github.com/user-attachments/files/34252100/projects.md)
+# Hi, I'm Katie! 👋
+
+Welcome to my academic portfolio, featuring projects from my M.S. in Data Science at the University of Virginia.
+
+📫 [LinkedIn]([link](https://www.linkedin.com/in/kdunning0/) · [Email](kadunning0@gmail.com)
+
+## Projects
 
 Selected work from my M.S. in Data Science at the University of Virginia (2026). Each entry covers the problem, how it was approached, and what came out of it.
 
