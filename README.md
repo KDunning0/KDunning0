@@ -31,7 +31,7 @@ Selected work from my M.S. in Data Science at the University of Virginia (2026).
 ---
 
 ## Skin Lesion Classification: An Ablation Study with EfficientNet-B4
-*Team project (4 members), DS 6050 Deep Learning, University of Virginia* · [Repo](https://github.com/cedozier/ds6050_team3_ablationstudy)
+*Team project (4 members), DS 6050 Deep Learning, University of Virginia* · [Repo](https://github.com/KDunning0/ds6050_team3_ablationstudy)
 
 **Summary.** Skin lesion classifiers trained on the ISIC 2019 dataset (25,331 dermoscopic images across 8 lesion types) struggle because the data is small and heavily imbalanced. Benign moles make up half the images, and the rarest class is under 1%. Our team tested whether three techniques from the literature improve classification, alone and in combination: equilibration mini-batch (EM) sampling to balance classes within each batch, ImageNet transfer learning, and MetaBlock, an attention mechanism that combines patient age, sex, and lesion location with the image features.
 
