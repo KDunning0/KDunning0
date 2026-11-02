@@ -44,7 +44,7 @@ Selected work from my M.S. in Data Science at the University of Virginia (2026).
 ---
 
 ## Finding Displaced People After the 2010 Haiti Earthquake
-*Team project (4 members), DS 6030, University of Virginia* · [Slides](link) · [Code](link)
+*Team project (4 members), DS 6030, University of Virginia* · [Request Access to Project Folder](https://drive.google.com/drive/folders/16BL51N8h9MJG0KDXZ8ZmiZswtDk_zRtf?usp=drive_link))
 
 **Summary.** After the 2010 Haiti earthquake, many displaced people sheltered under blue tarps, so finding tarps in aerial imagery is a way to direct aid to them. Our team built classifiers that flag blue-tarp pixels using only their RGB values. We trained on 63,241 labeled pixels (3% tarps) and tested on a 1,024,899-pixel holdout set where tarps made up only 1.4%.
 
@@ -67,7 +67,7 @@ Selected work from my M.S. in Data Science at the University of Virginia (2026).
 
 ---
 ## What Unites Fear? Text Analysis of Classic Horror, 1764–1936
-*Individual project, DS 5001, University of Virginia* · [Request Access to Project Folder](https://drive.google.com/drive/folders/1afSNm7p6RUBpdwLauXFmKrr85ZX1rfhq?usp=drive)
+*Individual project, DS 5001, University of Virginia* · [Request Access to Project Folder](https://drive.google.com/drive/folders/1afSNm7p6RUBpdwLauXFmKrr85ZX1rfhq?usp=drive_link))
 
 **Summary.** What makes horror one genre, and how does it change across subgenre, culture, and time? I built a corpus of 31 horror novels from Project Gutenberg, from *The Castle of Otranto* (1764) to H.P. Lovecraft, split into 866 chapters. I labeled each novel by subgenre (Gothic, Cosmic/Weird, Vampire, Sci-Fi, and six others), by culture (nine national traditions), and by decade. Then I tested which of those groupings actually show up in the text.
 
