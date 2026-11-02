@@ -29,7 +29,11 @@ Selected work from my M.S. in Data Science at the University of Virginia (2026).
 **My role:** One of the main pipeline builders. Led testing and codebase validation, co-wrote the final report, and led client demonstrations and technical presentations. Also validated compatibility with UVA's HPC environment and optimized LLM routing and performance.
 
 **System Diagram:**
-![NADIA system architecture](images/nadia-architecture.png)
+
+<p align="center">
+  <img src="images/nadia-architecture.png" alt="NADIA system architecture" width="600">
+</p>
+
 ---
 
 ## Skin Lesion Classification: An Ablation Study with EfficientNet-B4
