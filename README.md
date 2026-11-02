@@ -11,10 +11,10 @@ Selected work from my M.S. in Data Science at the University of Virginia (2026).
 - [NADIA: Hybrid Retrieval-Augmented Generation for Stroke Research](#nadia-hybrid-retrieval-augmented-generation-for-stroke-research)
 - [Skin Lesion Classification: An Ablation Study with EfficientNet-B4](#skin-lesion-classification-an-ablation-study-with-efficientnet-b4)
 - [Finding Displaced People After the 2010 Haiti Earthquake](#finding-displaced-people-after-the-2010-haiti-earthquake)
+- [Petrichor: A Hybrid-Retrieval RAG Assistant for Tabletop Game Masters](#petrichor-a-hybrid-retrieval-rag-assistant-for-tabletop-game-masters)
 - [What Unites Fear? Text Analysis of Classic Horror, 1764–1936](#what-unites-fear-text-analysis-of-classic-horror-17641936)
 - [Predicting Home Prices and Quality in King County, WA](#predicting-home-prices-and-quality-in-king-county-wa)
 - [Testing a Retailer's Claims: What Drives Diamond Price?](#testing-a-retailers-claims-what-drives-diamond-price)
-
 ---
 
 ## NADIA: Hybrid Retrieval-Augmented Generation for Stroke Research
@@ -56,6 +56,16 @@ Selected work from my M.S. in Data Science at the University of Virginia (2026).
 
 ---
 
+## Petrichor: A Hybrid-Retrieval RAG Assistant for Tabletop Game Masters
+*Individual project, DS 5002, University of Virginia* · [Repo & Model Card](https://github.com/KDunning0/Petrichor_Game_Master_Project)
+
+**Summary.** Petrichor helps tabletop RPG game masters generate plot hooks, characters, and thematic traps that fit their campaign. It grounds generation in a static corpus of 32 Project Gutenberg novels plus TTRPG rulebooks and scenario books, and can also draw on a game master's own campaign notes.
+
+**Method.** The system uses two retrieval paths. The static corpus is searched with hybrid retrieval: BGE-M3 dense embeddings and BM25, weighted equally. Campaign notes go through a separate pipeline in which Claude Haiku extracts entities into a Neo4j knowledge graph, and the two result sets are merged with reciprocal rank fusion. Claude Sonnet generates the final response. I benchmarked Petrichor against base Claude, GPT-4.1, Gemini 3.1 Pro, and Gemma 4 12B (with and without RAG) using LLM-as-judge evaluation with DeepEval and RAGAS on three test sets: handwritten TTRPG queries, general creative-writing prompts, and synthetic questions generated from the corpus.
+
+**Results.** Retrieval made outputs more usable at the table. Actionability rose from 0.82 to 0.86 on TTRPG queries and from 0.44 to 0.55 on general prompts, and answers stayed highly faithful to retrieved sources (0.98). On corpus-grounded questions, answer correctness rose from 0.38 to 0.50, ahead of GPT-4.1 (0.46) and Gemini 3.1 Pro (0.42). The trade-off was a drop in narrative specificity and tonal coherence compared with base Claude, and contextual relevancy was low (about 0.2), so retrieval precision is the clearest next improvement. Full benchmark tables and limitations are in the model card.
+
+---
 ## What Unites Fear? Text Analysis of Classic Horror, 1764–1936
 *Individual project, DS 5001, University of Virginia* · [Paper](link) · [Notebook](link)
 
